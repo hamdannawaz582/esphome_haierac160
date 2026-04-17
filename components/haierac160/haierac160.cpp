@@ -2,7 +2,7 @@
 // Created by Hamdan Nawaz on 17/04/2026.
 //
 
-#include "HaierAC160Climate.h"
+#include "haierac160.h"
 
 namespace esphome {
     namespace haierac160 {
