@@ -28,11 +28,11 @@ const uint8_t kHaierAcYrw02FanAuto = 0b101;  // HAIER_AC176 uses `0` in Fan2
 const uint8_t kHaierAcYrw02ButtonPower = 0b00101;
 
 // modes
-const uint8_t kHaierAcAuto = 0;
-const uint8_t kHaierAcCool = 1;
-const uint8_t kHaierAcDry = 2;
-const uint8_t kHaierAcHeat = 3;
-const uint8_t kHaierAcFan = 4;
+const uint8_t kHaierAcYrw02Auto = 0b000;  // 0
+const uint8_t kHaierAcYrw02Cool = 0b001;  // 1
+const uint8_t kHaierAcYrw02Dry =  0b010;  // 2
+const uint8_t kHaierAcYrw02Heat = 0b100;  // 4
+const uint8_t kHaierAcYrw02Fan =  0b110;  // 5
 
 /// Native representation of a Haier 160 bit A/C message.
 union HaierAc160Protocol{

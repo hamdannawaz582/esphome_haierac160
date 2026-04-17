@@ -19,16 +19,16 @@ namespace esphome {
             void transmit_state() override;
 
         private:
-            void setModel(HaierAc160Protocol state);
-            void setPrefix(HaierAc160Protocol state);
-            void setTemperature(HaierAc160Protocol state);
-            void setSwing(HaierAc160Protocol state);
-            void setFan(HaierAc160Protocol state);
-            void setPower(HaierAc160Protocol state);
-            void setMode(HaierAc160Protocol state);
-            void setButton(HaierAc160Protocol state);
-            void setClean(HaierAc160Protocol state);
-            void setChecksums(HaierAc160Protocol state);
+            void setModel(HaierAc160Protocol& state);
+            void setPrefix(HaierAc160Protocol& state);
+            void setTemperature(HaierAc160Protocol& state);
+            void setSwing(HaierAc160Protocol& state);
+            void setFan(HaierAc160Protocol& state);
+            void setPower(HaierAc160Protocol& state);
+            void setMode(HaierAc160Protocol& state);
+            void setButton(HaierAc160Protocol& state);
+            void setClean(HaierAc160Protocol& state);
+            void setChecksums(HaierAc160Protocol& state);
         };
     } // haierac160
 } // esphome
